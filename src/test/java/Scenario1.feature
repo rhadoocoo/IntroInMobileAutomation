@@ -5,6 +5,6 @@ Scenario:
   When I add 4 + 5
   And I expect result to be 9
   Then I clear screen
-  And I multiply 5 and 6
-  And I expect result to be 34
+  Then I multiply 5 and 6
+  When I expect result to be 30
 
